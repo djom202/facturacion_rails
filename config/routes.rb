@@ -58,4 +58,12 @@ FacturacionRails::Application.routes.draw do
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
   root :to => "home#index"
+   resources :users do
+    resources :compras
+    resources :pagos
+    resources :pedidos
+    resources :productos
+    resources :facturas
+    resources :inventarios
+  end
 end

@@ -2,7 +2,7 @@ class CreateCompras < ActiveRecord::Migration
   def change
     create_table :compras do |t|
       t.integer :id
-      t.intger :id_user
+      t.integer :id_user
       t.integer :id_factura
       t.integer :id_pedido
 

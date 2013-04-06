@@ -4,7 +4,7 @@ class CreateProductos < ActiveRecord::Migration
       t.integer :id
       t.string :nombre
       t.string :provedor
-      t.intger :id_inventario
+      t.integer :id_inventario
       t.boolean :estado
 
       t.timestamps

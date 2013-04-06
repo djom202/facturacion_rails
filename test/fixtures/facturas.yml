@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  id: 1
+  id_compra: 
+  fecha_exp: 2013-04-06 13:06:00
+  id_pedido: 1
+
+two:
+  id: 1
+  id_compra: 
+  fecha_exp: 2013-04-06 13:06:00
+  id_pedido: 1

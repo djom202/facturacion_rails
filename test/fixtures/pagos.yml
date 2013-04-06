@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  id: 1
+  id_user: 
+  id_factura: 1
+  forma_pago: MyString
+  fecha_pago: 2013-04-06 13:03:29
+  estado: false
+
+two:
+  id: 1
+  id_user: 
+  id_factura: 1
+  forma_pago: MyString
+  fecha_pago: 2013-04-06 13:03:29
+  estado: false

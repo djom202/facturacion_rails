@@ -1,0 +1,46 @@
+<style type="text/css">
+  body {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  /* Custom container */
+  .container-narrow {
+    margin: 0 auto;
+    max-width: 700px;
+  }
+  .container-narrow > hr {
+    margin: 30px 0;
+  }
+
+  /* Main marketing message and sign up button */
+  .jumbotron {
+    margin: 60px 0;
+    text-align: center;
+  }
+  .jumbotron h1 {
+    font-size: 72px;
+    line-height: 1;
+  }
+  .jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+  }
+
+  /* Supporting marketing content */
+  .marketing {
+    margin: 60px 0;
+  }
+  .marketing p + h4 {
+    margin-top: 28px;
+  }
+</style>
+
+<div class="container-narrow">
+  <div class="jumbotron">
+    <h1>Sistema de Facturacion FAC²!</h1>
+    <p class="lead"><strong>(Facturacion Facil)</strong> Todo lo justo que necesitabas en tu sistema de facturacion ahora a un click de distancia. Podras encontrar todo un sistema de facturacion muy flexible y personalizable con nosotros.</p>
+    <%=link_to "Sign up today", new_user_registration_path, :class => "btn btn-large btn-success" %>
+  </div>
+  <hr>
+</div>
